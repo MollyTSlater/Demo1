@@ -194,4 +194,9 @@
       <property name="influenceFormat" value="1"/>
     </module>
   </module>
+
+<module name="FileTabCharacter">
+     <property name="eachLine" value="true"/>
+  </module>
+          
 </module>
