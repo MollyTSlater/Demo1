@@ -15,7 +15,7 @@ on:
 
 jobs:
   build:
-
+    name: Gradle
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -35,4 +35,3 @@ jobs:
 
     - name: Build with Gradle Wrapper
       run: chmod a+rwx gradlew; ./gradlew build
-
